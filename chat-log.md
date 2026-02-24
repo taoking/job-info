@@ -2745,3 +2745,18 @@ java -cp examples ConcurrencyLesson
 - `example/ConcurrencyLesson.java`
 
 我已执行 `javac example/*.java`，编译成功。
+
+**User:**
+我刚弄混了   原来已有examples目录；  将示例放到一个目录下就好，用examples目录，将example目录下的文件合并到examples目录下，重复文件保留一份即可。
+
+**Assistant:**
+已完成合并：
+- 已将 `example` 目录内容并入 `examples`。
+- 重复文件只保留一份（`ConcurrencyLesson.java` 在两处内容一致，已保留 `examples` 中的一份）。
+- `example` 目录已删除，现在只保留 `examples`。
+
+当前示例目录：
+- `examples/ConcurrencyLesson.java`
+- `examples/ThreadCreationDemo.java`
+- `examples/SchedulingAndCompletableFutureDemo.java`
+- `examples/SingletonDCLDemo.java`
